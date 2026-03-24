@@ -9,7 +9,7 @@
           "id": "lingua-portuguesa",
           "area": "Língua Portuguesa",
           "cor": "#4A90D9",
-          "icone": "📘",
+          "icone": "",
           "conteudos": [
             {
               "id": "lp-1",
@@ -126,7 +126,7 @@
           "id": "lingua-inglesa",
           "area": "Língua Inglesa",
           "cor": "#E84393",
-          "icone": "🇬🇧",
+          "icone": "",
           "conteudos": [
             {
               "id": "li-1",
@@ -153,7 +153,7 @@
           "area": "Bloco I",
           "subtitulo": "Machine Learning Fundamentals",
           "cor": "#27AE60",
-          "icone": "🤖",
+          "icone": "",
           "conteudos": [
             {
               "id": "b1-1",
@@ -323,7 +323,7 @@
           "area": "Bloco II",
           "subtitulo": "ML Aplicado, Dados e Banco de Dados",
           "cor": "#E67E22",
-          "icone": "📊",
+          "icone": "",
           "conteudos": [
             {
               "id": "b2-1",
@@ -473,7 +473,7 @@
           "area": "Bloco III",
           "subtitulo": "Matemática, Estatística e Infraestrutura",
           "cor": "#8E44AD",
-          "icone": "📐",
+          "icone": "",
           "conteudos": [
             {
               "id": "b3-1",
