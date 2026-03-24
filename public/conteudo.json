@@ -1,0 +1,663 @@
+{
+  "concurso": "ÊNFASE 7: CIÊNCIA DE DADOS",
+  "conhecimentos": [
+    {
+      "id": "basicos",
+      "tipo": "Conhecimentos Básicos",
+      "areas": [
+        {
+          "id": "lingua-portuguesa",
+          "area": "Língua Portuguesa",
+          "cor": "#4A90D9",
+          "icone": "📘",
+          "conteudos": [
+            {
+              "id": "lp-1",
+              "titulo": "Compreensão e interpretação de textos",
+              "descricao": "Compreensão e interpretação de textos de gêneros variados.",
+              "subconteudos": []
+            },
+            {
+              "id": "lp-2",
+              "titulo": "Tipos e gêneros textuais",
+              "descricao": "Reconhecimento de tipos e gêneros textuais.",
+              "subconteudos": []
+            },
+            {
+              "id": "lp-3",
+              "titulo": "Ortografia oficial",
+              "descricao": "Domínio da ortografia oficial.",
+              "subconteudos": []
+            },
+            {
+              "id": "lp-4",
+              "titulo": "Coesão textual",
+              "descricao": "Domínio dos mecanismos de coesão textual.",
+              "subconteudos": [
+                {
+                  "id": "lp-4-1",
+                  "titulo": "Referenciação, substituição e conectores",
+                  "descricao": "Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual."
+                },
+                {
+                  "id": "lp-4-2",
+                  "titulo": "Tempos e modos verbais",
+                  "descricao": "Emprego de tempos e modos verbais."
+                }
+              ]
+            },
+            {
+              "id": "lp-5",
+              "titulo": "Estrutura morfossintática do período",
+              "descricao": "Domínio da estrutura morfossintática do período.",
+              "subconteudos": [
+                {
+                  "id": "lp-5-1",
+                  "titulo": "Classes de palavras",
+                  "descricao": "Emprego das classes de palavras."
+                },
+                {
+                  "id": "lp-5-2",
+                  "titulo": "Coordenação entre orações e termos",
+                  "descricao": "Relações de coordenação entre orações e entre termos da oração."
+                },
+                {
+                  "id": "lp-5-3",
+                  "titulo": "Subordinação entre orações e termos",
+                  "descricao": "Relações de subordinação entre orações e entre termos da oração."
+                },
+                {
+                  "id": "lp-5-4",
+                  "titulo": "Sinais de pontuação",
+                  "descricao": "Emprego dos sinais de pontuação."
+                },
+                {
+                  "id": "lp-5-5",
+                  "titulo": "Concordância verbal e nominal",
+                  "descricao": "Concordância verbal e nominal."
+                },
+                {
+                  "id": "lp-5-6",
+                  "titulo": "Regência verbal e nominal",
+                  "descricao": "Regência verbal e nominal."
+                },
+                {
+                  "id": "lp-5-7",
+                  "titulo": "Crase",
+                  "descricao": "Emprego do sinal indicativo de crase."
+                },
+                {
+                  "id": "lp-5-8",
+                  "titulo": "Colocação pronominal",
+                  "descricao": "Colocação dos pronomes átonos."
+                }
+              ]
+            },
+            {
+              "id": "lp-6",
+              "titulo": "Reescrita de frases e parágrafos",
+              "descricao": "Reescrita de frases e parágrafos do texto.",
+              "subconteudos": [
+                {
+                  "id": "lp-6-1",
+                  "titulo": "Significação das palavras",
+                  "descricao": "Significação das palavras."
+                },
+                {
+                  "id": "lp-6-2",
+                  "titulo": "Substituição de palavras ou trechos",
+                  "descricao": "Substituição de palavras ou de trechos de texto."
+                },
+                {
+                  "id": "lp-6-3",
+                  "titulo": "Reorganização de orações e períodos",
+                  "descricao": "Reorganização da estrutura de orações e de períodos do texto."
+                },
+                {
+                  "id": "lp-6-4",
+                  "titulo": "Reescrita de textos variados",
+                  "descricao": "Reescrita de textos de diferentes gêneros e níveis de formalidade."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lingua-inglesa",
+          "area": "Língua Inglesa",
+          "cor": "#E84393",
+          "icone": "🇬🇧",
+          "conteudos": [
+            {
+              "id": "li-1",
+              "titulo": "Compreensão de textos em inglês",
+              "descricao": "Compreensão de textos escritos em língua inglesa.",
+              "subconteudos": []
+            },
+            {
+              "id": "li-2",
+              "titulo": "Itens gramaticais relevantes",
+              "descricao": "Itens gramaticais relevantes para o entendimento dos sentidos dos textos.",
+              "subconteudos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "especificos",
+      "tipo": "Conhecimentos Específicos",
+      "areas": [
+        {
+          "id": "bloco-i",
+          "area": "Bloco I",
+          "subtitulo": "Machine Learning Fundamentals",
+          "cor": "#27AE60",
+          "icone": "🤖",
+          "conteudos": [
+            {
+              "id": "b1-1",
+              "titulo": "Aprendizado supervisionado",
+              "descricao": "Aprendizado supervisionado: Regressão e Classificação.",
+              "subconteudos": [
+                {
+                  "id": "b1-1-1",
+                  "titulo": "Métricas de avaliação",
+                  "descricao": "Métricas de avaliação de modelos supervisionados."
+                },
+                {
+                  "id": "b1-1-2",
+                  "titulo": "Overfitting e underfitting",
+                  "descricao": "Overfitting e underfitting de modelos."
+                },
+                {
+                  "id": "b1-1-3",
+                  "titulo": "Regularização",
+                  "descricao": "Técnicas de regularização de modelos."
+                },
+                {
+                  "id": "b1-1-4",
+                  "titulo": "Seleção de modelos",
+                  "descricao": "Seleção de modelos: Erro de Generalização."
+                },
+                {
+                  "id": "b1-1-5",
+                  "titulo": "Validação Cruzada",
+                  "descricao": "Validação Cruzada (Cross-Validation)."
+                },
+                {
+                  "id": "b1-1-6",
+                  "titulo": "Conjuntos de Treino, Validação e Teste",
+                  "descricao": "Conjuntos de Treino, Validação e Teste."
+                },
+                {
+                  "id": "b1-1-7",
+                  "titulo": "Trade off Variância e Viés",
+                  "descricao": "Trade off entre Variância e Viés (Bias-Variance Tradeoff)."
+                },
+                {
+                  "id": "b1-1-8",
+                  "titulo": "Regressão Linear e Logística",
+                  "descricao": "Algoritmos: Regressão Linear e Regressão Logística."
+                },
+                {
+                  "id": "b1-1-9",
+                  "titulo": "Árvores de decisão e Random Forests",
+                  "descricao": "Árvores de decisão e random forests."
+                },
+                {
+                  "id": "b1-1-10",
+                  "titulo": "SVM",
+                  "descricao": "Máquina de suporte de vetores (SVM)."
+                },
+                {
+                  "id": "b1-1-11",
+                  "titulo": "Naive Bayes",
+                  "descricao": "Algoritmo Naive Bayes."
+                },
+                {
+                  "id": "b1-1-12",
+                  "titulo": "K-NN",
+                  "descricao": "Algoritmo K-NN (K-Nearest Neighbors)."
+                },
+                {
+                  "id": "b1-1-13",
+                  "titulo": "Ensembles",
+                  "descricao": "Métodos de Ensembles."
+                },
+                {
+                  "id": "b1-1-14",
+                  "titulo": "Scikit-learn supervisionado",
+                  "descricao": "Aprendizado supervisionado com Python scikit-learn."
+                },
+                {
+                  "id": "b1-1-15",
+                  "titulo": "Otimização de hiperparâmetros",
+                  "descricao": "Conceitos de otimização de hiperparâmetros."
+                }
+              ]
+            },
+            {
+              "id": "b1-2",
+              "titulo": "Aprendizado não supervisionado",
+              "descricao": "Técnicas e algoritmos de aprendizado não supervisionado.",
+              "subconteudos": [
+                {
+                  "id": "b1-2-1",
+                  "titulo": "PCA",
+                  "descricao": "Redução de dimensionalidade: PCA (Principal Component Analysis)."
+                },
+                {
+                  "id": "b1-2-2",
+                  "titulo": "K-Means",
+                  "descricao": "Agrupamento K-Means."
+                },
+                {
+                  "id": "b1-2-3",
+                  "titulo": "Mistura de Gaussianas",
+                  "descricao": "Mistura de Gaussianas (Gaussian Mixture Models)."
+                },
+                {
+                  "id": "b1-2-4",
+                  "titulo": "Agrupamento Hierárquico",
+                  "descricao": "Agrupamento Hierárquico."
+                },
+                {
+                  "id": "b1-2-5",
+                  "titulo": "Regras de associação",
+                  "descricao": "Regras de associação."
+                },
+                {
+                  "id": "b1-2-6",
+                  "titulo": "Scikit-learn não supervisionado",
+                  "descricao": "Aprendizado não supervisionado com Python scikit-learn."
+                }
+              ]
+            },
+            {
+              "id": "b1-3",
+              "titulo": "Redes neurais artificiais",
+              "descricao": "Conceitos e técnicas de redes neurais artificiais.",
+              "subconteudos": [
+                {
+                  "id": "b1-3-1",
+                  "titulo": "Conceitos básicos de RNA",
+                  "descricao": "Conceitos Básicos em Redes Neurais Artificiais: Definições e Arquitetura."
+                },
+                {
+                  "id": "b1-3-2",
+                  "titulo": "Funções de Ativação",
+                  "descricao": "Funções de Ativação em redes neurais."
+                },
+                {
+                  "id": "b1-3-3",
+                  "titulo": "Otimização de RNAs",
+                  "descricao": "Otimização de Redes Neurais Artificiais: gradiente, gradiente estocástico, backpropagation, inicialização dos pesos, Vanishing Gradients."
+                },
+                {
+                  "id": "b1-3-4",
+                  "titulo": "Regularização de RNAs",
+                  "descricao": "Métodos de regularização: normas L1 e L2, Dropout e Early Stopping."
+                },
+                {
+                  "id": "b1-3-5",
+                  "titulo": "Redes Neurais Convolucionais (CNN)",
+                  "descricao": "Definições básicas de Redes Neurais Convolucionais."
+                },
+                {
+                  "id": "b1-3-6",
+                  "titulo": "Redes Neurais Recorrentes (RNN)",
+                  "descricao": "Definições básicas de Redes Neurais Recorrentes."
+                },
+                {
+                  "id": "b1-3-7",
+                  "titulo": "Keras e PyTorch",
+                  "descricao": "Redes neurais com Python: treino de modelos com Keras e Pytorch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bloco-ii",
+          "area": "Bloco II",
+          "subtitulo": "ML Aplicado, Dados e Banco de Dados",
+          "cor": "#E67E22",
+          "icone": "📊",
+          "conteudos": [
+            {
+              "id": "b2-1",
+              "titulo": "Machine Learning aplicado",
+              "descricao": "Aplicações práticas de machine learning.",
+              "subconteudos": [
+                {
+                  "id": "b2-1-1",
+                  "titulo": "Visão computacional com CNN",
+                  "descricao": "Noções de Visão computacional com redes neurais convolucionais."
+                },
+                {
+                  "id": "b2-1-2",
+                  "titulo": "Classificação de imagens",
+                  "descricao": "Classificação de imagens com deep learning."
+                },
+                {
+                  "id": "b2-1-3",
+                  "titulo": "Detecção de objetos",
+                  "descricao": "Detecção de objetos em imagens."
+                },
+                {
+                  "id": "b2-1-4",
+                  "titulo": "Segmentação de objetos",
+                  "descricao": "Segmentação de objetos e instâncias."
+                },
+                {
+                  "id": "b2-1-5",
+                  "titulo": "Processamento Natural de Linguagem (NLP)",
+                  "descricao": "Noções de Processamento Natural de Linguagem."
+                },
+                {
+                  "id": "b2-1-6",
+                  "titulo": "Stopwords, stemização e n-grams",
+                  "descricao": "Stopwords, stemização e n-grams em NLP."
+                },
+                {
+                  "id": "b2-1-7",
+                  "titulo": "TF-IDF",
+                  "descricao": "TF-IDF (Term Frequency–Inverse Document Frequency)."
+                },
+                {
+                  "id": "b2-1-8",
+                  "titulo": "Modelagem de tópicos",
+                  "descricao": "Modelagem de tópicos: LDA e NMF."
+                },
+                {
+                  "id": "b2-1-9",
+                  "titulo": "Word embeddings",
+                  "descricao": "Word embeddings: CBOW e Skip Gram."
+                },
+                {
+                  "id": "b2-1-10",
+                  "titulo": "Séries Temporais",
+                  "descricao": "Conceitos Básicos em Séries Temporais."
+                }
+              ]
+            },
+            {
+              "id": "b2-2",
+              "titulo": "Manipulação, tratamento e visualização de dados",
+              "descricao": "Técnicas e ferramentas para trabalhar com dados.",
+              "subconteudos": [
+                {
+                  "id": "b2-2-1",
+                  "titulo": "Técnicas de visualização de dados (parte 1)",
+                  "descricao": "Técnicas de visualização de dados (questão 1/2)."
+                },
+                {
+                  "id": "b2-2-2",
+                  "titulo": "Técnicas de visualização de dados (parte 2)",
+                  "descricao": "Técnicas de visualização de dados (questão 2/2)."
+                },
+                {
+                  "id": "b2-2-3",
+                  "titulo": "Valores faltantes",
+                  "descricao": "Lidando com valores faltantes (missing values)."
+                },
+                {
+                  "id": "b2-2-4",
+                  "titulo": "Dados categóricos",
+                  "descricao": "Lidando com dados categóricos."
+                },
+                {
+                  "id": "b2-2-5",
+                  "titulo": "Normalização numérica",
+                  "descricao": "Normalização numérica de dados."
+                },
+                {
+                  "id": "b2-2-6",
+                  "titulo": "Detecção e tratamento de outliers",
+                  "descricao": "Detecção e tratamento de outliers."
+                },
+                {
+                  "id": "b2-2-7",
+                  "titulo": "Python Pandas",
+                  "descricao": "Manipulação de dataframes com Python Pandas: leitura de dados tabulares, seleção de linhas e colunas, agregação, valores faltantes, remoção de duplicados, junção de dataframes."
+                }
+              ]
+            },
+            {
+              "id": "b2-3",
+              "titulo": "Banco de dados e Data Warehouse",
+              "descricao": "Conceitos de banco de dados relacional, SQL e arquiteturas de dados.",
+              "subconteudos": [
+                {
+                  "id": "b2-3-1",
+                  "titulo": "Modelo entidade-relacionamento",
+                  "descricao": "Modelo entidade-relacionamento (MER)."
+                },
+                {
+                  "id": "b2-3-2",
+                  "titulo": "Mapeamento lógico relacional",
+                  "descricao": "Mapeamento lógico relacional."
+                },
+                {
+                  "id": "b2-3-3",
+                  "titulo": "Normalização",
+                  "descricao": "Normalização de banco de dados."
+                },
+                {
+                  "id": "b2-3-4",
+                  "titulo": "SQL",
+                  "descricao": "Linguagem de definição e manipulação de dados (SQL)."
+                },
+                {
+                  "id": "b2-3-5",
+                  "titulo": "Data Warehousing e modelagem multidimensional",
+                  "descricao": "Conceitos de data warehousing e modelagem multidimensional (esquema estrela)."
+                },
+                {
+                  "id": "b2-3-6",
+                  "titulo": "Hadoop",
+                  "descricao": "Conceitos gerais de Hadoop: HDFS, MapReduce, YARN e Spark."
+                },
+                {
+                  "id": "b2-3-7",
+                  "titulo": "NoSQL e Object Store",
+                  "descricao": "Conceitos de Bancos NoSQL e Armazenamento orientado a objeto (object store)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bloco-iii",
+          "area": "Bloco III",
+          "subtitulo": "Matemática, Estatística e Infraestrutura",
+          "cor": "#8E44AD",
+          "icone": "📐",
+          "conteudos": [
+            {
+              "id": "b3-1",
+              "titulo": "Cálculo",
+              "descricao": "Fundamentos de cálculo aplicado à ciência de dados.",
+              "subconteudos": [
+                {
+                  "id": "b3-1-1",
+                  "titulo": "Précálculo",
+                  "descricao": "Précálculo: Conjuntos, Coordenadas Cartesianas, Cônicas e Produtos Notáveis."
+                },
+                {
+                  "id": "b3-1-2",
+                  "titulo": "Funções",
+                  "descricao": "Funções matemáticas."
+                },
+                {
+                  "id": "b3-1-3",
+                  "titulo": "Limites",
+                  "descricao": "Limites de funções."
+                },
+                {
+                  "id": "b3-1-4",
+                  "titulo": "Derivadas",
+                  "descricao": "Derivadas de funções."
+                },
+                {
+                  "id": "b3-1-5",
+                  "titulo": "Derivadas parciais",
+                  "descricao": "Derivadas parciais de funções multivariáveis."
+                },
+                {
+                  "id": "b3-1-6",
+                  "titulo": "Máximos e Mínimos",
+                  "descricao": "Máximos e Mínimos de funções."
+                },
+                {
+                  "id": "b3-1-7",
+                  "titulo": "Esboços de gráficos",
+                  "descricao": "Esboços de Gráficos de Funções."
+                },
+                {
+                  "id": "b3-1-8",
+                  "titulo": "Integrais",
+                  "descricao": "Integrais de funções."
+                }
+              ]
+            },
+            {
+              "id": "b3-2",
+              "titulo": "Álgebra Linear para Ciência de Dados",
+              "descricao": "Conceitos de álgebra linear aplicados à ciência de dados.",
+              "subconteudos": [
+                {
+                  "id": "b3-2-1",
+                  "titulo": "Notação de vetores e matrizes",
+                  "descricao": "Notação de vetores e matrizes."
+                },
+                {
+                  "id": "b3-2-2",
+                  "titulo": "Operações com vetores e matrizes",
+                  "descricao": "Operações com vetores e matrizes; produto escalar e produto vetorial."
+                },
+                {
+                  "id": "b3-2-3",
+                  "titulo": "Matriz identidade, inversa e transposta",
+                  "descricao": "Matriz identidade, inversa e transposta."
+                },
+                {
+                  "id": "b3-2-4",
+                  "titulo": "Transformações lineares",
+                  "descricao": "Transformações lineares."
+                },
+                {
+                  "id": "b3-2-5",
+                  "titulo": "Normas L1 e L2",
+                  "descricao": "Normas (L1, L2) em álgebra linear."
+                },
+                {
+                  "id": "b3-2-6",
+                  "titulo": "Autovalores e autovetores",
+                  "descricao": "Autovalores e autovetores (eigenvalues e eigenvectors)."
+                },
+                {
+                  "id": "b3-2-7",
+                  "titulo": "Decomposição SVD",
+                  "descricao": "Decomposição SVD (Singular Value Decomposition)."
+                },
+                {
+                  "id": "b3-2-8",
+                  "titulo": "NumPy",
+                  "descricao": "Álgebra linear e operações matriciais com Python Numpy."
+                }
+              ]
+            },
+            {
+              "id": "b3-3",
+              "titulo": "Probabilidade e Estatística",
+              "descricao": "Conceitos de probabilidade e estatística para ciência de dados.",
+              "subconteudos": [
+                {
+                  "id": "b3-3-1",
+                  "titulo": "Conceitos de Probabilidade",
+                  "descricao": "Modelo de probabilidade, Probabilidade Condicional, Independência, Variáveis Aleatórias, Esperança, Variância e Covariância."
+                },
+                {
+                  "id": "b3-3-2",
+                  "titulo": "Distribuições contínuas e discretas",
+                  "descricao": "Distribuições: Normal, t-Student, Poisson, Exponencial, Binomial, Dirichlet."
+                },
+                {
+                  "id": "b3-3-3",
+                  "titulo": "Distribuições multidimensionais",
+                  "descricao": "Distribuições multidimensionais; matriz de covariância."
+                },
+                {
+                  "id": "b3-3-4",
+                  "titulo": "Estatísticas Descritivas",
+                  "descricao": "Estatísticas Descritivas: medidas de tendência central e dispersão."
+                },
+                {
+                  "id": "b3-3-5",
+                  "titulo": "Inferência Estatística",
+                  "descricao": "Teorema do Limite Central, Teste de Hipótese e Intervalo de Confiança, Estimador de Máxima Verossimilhança, Inferência Bayesiana."
+                },
+                {
+                  "id": "b3-3-6",
+                  "titulo": "Coeficiente de Pearson",
+                  "descricao": "Coeficiente de correlação de Pearson."
+                },
+                {
+                  "id": "b3-3-7",
+                  "titulo": "Histogramas e curvas de frequência",
+                  "descricao": "Histogramas e curvas de frequência."
+                },
+                {
+                  "id": "b3-3-8",
+                  "titulo": "Diagrama boxplot",
+                  "descricao": "Diagrama boxplot."
+                },
+                {
+                  "id": "b3-3-9",
+                  "titulo": "Avaliação de outliers",
+                  "descricao": "Avaliação de outliers via análise estatística."
+                }
+              ]
+            },
+            {
+              "id": "b3-4",
+              "titulo": "Algoritmos e estrutura de dados",
+              "descricao": "Fundamentos de algoritmos e estruturas de dados.",
+              "subconteudos": [
+                {
+                  "id": "b3-4-1",
+                  "titulo": "Complexidade e notação Big O",
+                  "descricao": "Complexidade de algoritmos e notação assintótica (Big O)."
+                }
+              ]
+            },
+            {
+              "id": "b3-5",
+              "titulo": "Conceitos modernos de sistemas de informação",
+              "descricao": "Infraestrutura moderna de TI para ciência de dados.",
+              "subconteudos": [
+                {
+                  "id": "b3-5-1",
+                  "titulo": "Computação em Nuvem",
+                  "descricao": "Conceitos Nuvem: IaaS, PaaS e SaaS."
+                },
+                {
+                  "id": "b3-5-2",
+                  "titulo": "Containers",
+                  "descricao": "Conceitos de Containers: construção, registro, execução e orquestração."
+                },
+                {
+                  "id": "b3-5-3",
+                  "titulo": "DevOps",
+                  "descricao": "Conceitos básicos de DevOps: versionamento com git, pipeline e CI/CD."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
