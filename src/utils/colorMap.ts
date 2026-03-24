@@ -5,6 +5,7 @@ export const typeColorMap: Record<EventType, string> = {
   trabalho: '#F59E0B',
   descanso: '#10B981',
   custom: '#6366F1',
+  questoes: '#FB923C',
 };
 
 export const getEventColor = (tipo: EventType, areaCor?: string): string => {

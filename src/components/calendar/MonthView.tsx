@@ -35,7 +35,7 @@ export function MonthView({ calendar }: MonthViewProps) {
   const dayNames = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-background rounded-lg">
       <div className="grid grid-cols-7 gap-px mb-1">
         {dayNames.map(d => (
           <div key={d} className="text-center text-xs text-muted-foreground py-2 uppercase">
@@ -55,8 +55,8 @@ export function MonthView({ calendar }: MonthViewProps) {
                 calendarHook.goToDay(day);
                 useUIStore.getState().setView('dia');
               }}
-              className={`min-h-[80px] p-1.5 cursor-pointer transition-colors hover:bg-accent bg-card ${
-                !inMonth ? 'opacity-40' : ''
+              className={`min-h-[80px] p-1.5 cursor-pointer transition-colors hover:bg-accent/20 bg-background text-foreground ${
+                !inMonth ? 'opacity-50' : ''
               }`}
             >
               <div className={`text-xs font-medium mb-1 ${

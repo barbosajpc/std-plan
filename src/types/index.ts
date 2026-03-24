@@ -1,4 +1,4 @@
-export type EventType = 'estudo' | 'trabalho' | 'descanso' | 'custom';
+export type EventType = 'estudo' | 'trabalho' | 'descanso' | 'custom' | 'questoes';
 
 export interface AgendaEvent {
   id: string;
@@ -6,7 +6,8 @@ export interface AgendaEvent {
   tipo: EventType;
   areaId?: string;
   conteudoId?: string;
-  subconteudoId?: string;
+  subconteudoId?: string; // compatibilidade legada
+  subconteudoIds?: string[];
   inicio: string; // ISO string
   fim: string; // ISO string
   cor: string;

@@ -80,20 +80,26 @@ export function ConteudoItem({ conteudo, areaId, areaCor }: ConteudoItemProps) {
       {expanded && conteudo.subconteudos.length > 0 && (
         <div className="ml-5 space-y-0.5 mb-1">
           {conteudo.subconteudos.map(sub => (
-            <label
-              key={sub.id}
-              className="flex items-center gap-2 py-0.5 cursor-pointer text-xs"
-            >
-              <input
-                type="checkbox"
-                checked={!!progresso[sub.id]}
-                onChange={() => toggleSub(sub.id)}
-                className="rounded border-border accent-primary w-3 h-3"
-              />
-              <span className={progresso[sub.id] ? 'text-muted-foreground line-through' : 'text-foreground'}>
-                {sub.titulo}
-              </span>
-            </label>
+            <div key={sub.id} className="flex items-center justify-between gap-2 py-0.5 text-xs">
+              <label className="flex items-center gap-2 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={!!progresso[sub.id]}
+                  onChange={() => toggleSub(sub.id)}
+                  className="rounded border-border accent-primary w-3 h-3"
+                />
+                <span className={progresso[sub.id] ? 'text-muted-foreground line-through' : 'text-foreground'}>
+                  {sub.titulo}
+                </span>
+              </label>
+              <button
+                title="Agendar subconteúdo"
+                onClick={() => openEventModal({ areaId, conteudoId: conteudo.id, subconteudoId: sub.id, subconteudoIds: [sub.id] })}
+                className="text-muted-foreground hover:text-foreground"
+              >
+                <CalendarPlus className="w-3.5 h-3.5" />
+              </button>
+            </div>
           ))}
         </div>
       )}

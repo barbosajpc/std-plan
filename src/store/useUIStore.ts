@@ -11,11 +11,15 @@ interface UIState {
   editingEventId: string | null;
   prefilledArea: string | null;
   prefilledConteudo: string | null;
+  prefilledSubconteudo: string | null;
+  prefilledSubconteudoIds: string[];
   prefilledSlot: { date: string; startHour: number; endHour: number } | null;
   openEventModal: (opts?: {
     eventId?: string;
     areaId?: string;
     conteudoId?: string;
+    subconteudoId?: string;
+    subconteudoIds?: string[];
     slot?: { date: string; startHour: number; endHour: number };
   }) => void;
   closeEventModal: () => void;
@@ -39,6 +43,8 @@ export const useUIStore = create<UIState>((set) => ({
   editingEventId: null,
   prefilledArea: null,
   prefilledConteudo: null,
+  prefilledSubconteudo: null,
+  prefilledSubconteudoIds: [],
   prefilledSlot: null,
 
   openEventModal: (opts) => set({
@@ -46,6 +52,8 @@ export const useUIStore = create<UIState>((set) => ({
     editingEventId: opts?.eventId ?? null,
     prefilledArea: opts?.areaId ?? null,
     prefilledConteudo: opts?.conteudoId ?? null,
+    prefilledSubconteudo: opts?.subconteudoId ?? null,
+    prefilledSubconteudoIds: opts?.subconteudoIds ?? (opts?.subconteudoId ? [opts.subconteudoId] : []),
     prefilledSlot: opts?.slot ?? null,
   }),
 
@@ -54,6 +62,8 @@ export const useUIStore = create<UIState>((set) => ({
     editingEventId: null,
     prefilledArea: null,
     prefilledConteudo: null,
+    prefilledSubconteudo: null,
+    prefilledSubconteudoIds: [],
     prefilledSlot: null,
   }),
 
@@ -63,14 +73,22 @@ export const useUIStore = create<UIState>((set) => ({
   expandedAreas: new Set<string>(),
   toggleAreaExpanded: (id) => set((s) => {
     const next = new Set(s.expandedAreas);
-    next.has(id) ? next.delete(id) : next.add(id);
+    if (next.has(id)) {
+      next.delete(id);
+    } else {
+      next.add(id);
+    }
     return { expandedAreas: next };
   }),
 
   expandedConteudos: new Set<string>(),
   toggleConteudoExpanded: (id) => set((s) => {
     const next = new Set(s.expandedConteudos);
-    next.has(id) ? next.delete(id) : next.add(id);
+    if (next.has(id)) {
+      next.delete(id);
+    } else {
+      next.add(id);
+    }
     return { expandedConteudos: next };
   }),
 }));

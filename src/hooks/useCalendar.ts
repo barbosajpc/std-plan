@@ -14,8 +14,8 @@ import {
 } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 
-export const HOURS_START = 6;
-export const HOURS_END = 23;
+export const HOURS_START = 0;
+export const HOURS_END = 24;
 
 export function useCalendar() {
   const [currentDate, setCurrentDate] = useState(new Date());
