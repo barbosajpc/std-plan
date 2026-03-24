@@ -112,5 +112,6 @@ export const createDateTimeString = (date: Date, hour: number): string => {
   return `${yyyy}-${mm}-${dd}T${hh}:${min}:${ss}`;
 };
 
-export const generateId = (): string =>
-  `evt-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+export const generateId = (): string => {
+  return crypto.randomUUID();
+};

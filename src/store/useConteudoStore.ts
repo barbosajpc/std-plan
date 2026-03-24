@@ -45,7 +45,7 @@ export const useConteudoStore = create<ConteudoState>((set) => ({
   loadConteudo: async () => {
     set({ loading: true, error: null });
     try {
-      const res = await fetch('/conteudo.json');
+      const res = await fetch(`${import.meta.env.BASE_URL}conteudo.json`);
       const data = await res.json();
       set({ data, loading: false });
     } catch {
