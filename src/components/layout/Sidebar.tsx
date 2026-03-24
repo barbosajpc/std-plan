@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useConteudoStore } from '@/store/useConteudoStore';
-import { useUIStore } from '@/store/useUIStore';
 import { AreaCard } from '@/components/cards/AreaCard';
 import { BookOpen } from 'lucide-react';
 
